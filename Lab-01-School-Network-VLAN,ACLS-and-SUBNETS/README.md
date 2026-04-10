@@ -15,7 +15,7 @@ To reduce the broadcast domain and logically isolate network traffic, access por
 
 * **Action:** Created VLAN 2 and assigned FastEthernet ports `Fa0/1 - Fa0/5` as static access ports.
 * **Proof of Configuration:**
-![VLAN Configuration](images/vlan_switch_config.png)
+![VLAN Configuration](../images/vlan_switch_config.png)
 
 ---
 
