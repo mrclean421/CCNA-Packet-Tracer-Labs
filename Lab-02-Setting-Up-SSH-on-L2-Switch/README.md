@@ -38,30 +38,24 @@ Sw1(config)# interface vlan 1
 Sw1(config-if)# ip address 192.168.0.1 255.255.255.0
 Sw1(config-if)# no shutdown
 Sw1(config-if)# exit
-Sw1(config)# ip default-gateway 192.168.0.254
 ```
 
 ### 3.3 Cryptographic Key Generation and Tiered User Access
 A domain name is assigned prior to generating 2048-bit RSA keys. Two tiers of administrative accounts are created to demonstrate privilege separation.
 
 ```text
-Sw1(config)# ip domain-name lab.local
+Sw1(config)# ip domain-name test.com
 Sw1(config)# crypto key generate rsa
-! (When prompted for the modulus size, specify 2048)
+2048
 
 Sw1(config)# username admin privilege 15 secret cisco
 Sw1(config)# username tester privilege 1 secret cisco
 ```
 
 ### 3.4 Securing Access Lines and Saving Configuration
-Both the physical console port and the virtual terminal lines are secured. The VTY lines are explicitly restricted to SSH.
+The virtual terminal lines are secured. The VTY lines are explicitly restricted to SSH.
 
 ```text
-Sw1(config)# line console 0
-Sw1(config-line)# logging synchronous
-Sw1(config-line)# exec-timeout 5 0
-Sw1(config-line)# exit
-
 Sw1(config)# line vty 0 4
 Sw1(config-line)# login local
 Sw1(config-line)# transport input ssh
@@ -78,9 +72,9 @@ Sw1# write memory
 ## 4. Client Device Configuration
 To execute the connectivity test locally, an end-user device must be configured with a static IP address residing on the same logical subnet as the switch's management interface.
 
-* **IPv4 Address:** `192.168.0.10`
+* **IPv4 Address:** `192.168.0.2`
 * **Subnet Mask:** `255.255.255.0`
-* **Default Gateway:** `192.168.0.254`
+* **Default Gateway:** `192.168.0.1`
 
 ---
 
@@ -104,4 +98,4 @@ Password: [cisco]
 Sw1#
 ```
 
-![Figure 2: Successful SSH Authentication and Session Establishment](./images/ssh_success_proof.png)
+![Figure 2: Successful SSH Authentication and Session Establishment](../images/ssh_success_proof.png)
