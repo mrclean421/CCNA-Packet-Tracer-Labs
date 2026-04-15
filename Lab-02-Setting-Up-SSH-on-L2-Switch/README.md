@@ -6,7 +6,7 @@ The primary objective of this laboratory exercise is to configure a factory-defa
 ## 2. Network Topology
 The network topology for this exercise consists of a single Layer 2 managed switch connected to localized end-user devices (workstations or laptops). 
 
-![Figure 1: Network Topology Diagram](./images/topology_proof.png)
+![Figure 1: Network Topology Diagram](../images/topology_proof.png)
 
 ---
 
