@@ -1,7 +1,7 @@
 # Laboratory Report: Comprehensive Configuration of Secure Shell (SSH) on a Layer 2 Managed Switch
 
 ## 1. Objective
-The primary objective of this laboratory exercise is to configure a factory-default Layer 2 managed switch for secure remote management utilizing the Secure Shell (SSH) protocol. This procedure has been expanded to encompass enterprise-standard best practices, including establishing a management IP address, configuring a default gateway, generating RSA cryptographic keys, implementing a Message of the Day (MOTD) banner, establishing tiered user access control, and properly securing both console and virtual terminal (VTY) lines.
+The primary objective of this laboratory exercise is to configure a factory-default Layer 2 managed switch for secure remote management utilizing the Secure Shell (SSH) protocol. This procedure has been expanded to encompass enterprise-standard best practices, including establishing a management IP address, generating RSA cryptographic keys, implementing a Message of the Day (MOTD) banner, establishing tiered user access control, and properly securing both console and virtual terminal (VTY) lines.
 
 ## 2. Network Topology
 The network topology for this exercise consists of a single Layer 2 managed switch connected to localized end-user devices (workstations or laptops). 
