@@ -17,12 +17,12 @@ These labs are designed to reinforce concepts required for the **Cisco Certified
 
 *(Click on any lab below to view the detailed network topology, configuration steps, and verification screenshots).*
 
-* **[Lab 01: Secure Corporate Network Infrastructure](./Lab_01_Secure_Corporate_Network/)**
+* **[Lab 01: Secure Corporate Network Infrastructure](./Lab-01-School-Network-VLAN,ACLS-and-SUBNETS/)**
   * *Concepts:* VLAN segmentation, Extended ACLs, SSH secure access, and TFTP centralized backups.
-* **[Lab 02: Coming Soon...]**
-  * *Concepts:* ...
-* **[Lab 03: Coming Soon...]**
-  * *Concepts:* ...
+* **[Lab 02: SSH on Layer 2 Switch](./Lab-02-Setting-Up-SSH-on-L2-Switch/)**
+  * *Concepts:* SSH secure acess,
+* **[Lab 03: DHCP on Router (2911)](./Lab-03-Setting-Up-DHCP-on-2911-Router/)**
+  * *Concepts:* 
 
 ---
 
