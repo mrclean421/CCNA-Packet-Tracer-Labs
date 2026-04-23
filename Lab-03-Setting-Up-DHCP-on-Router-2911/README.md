@@ -6,7 +6,7 @@ The primary objective of this laboratory exercise is to configure a Cisco 2911 I
 ## 2. Network Topology
 The network topology consists of a Cisco 2911 Router acting as the default gateway and DHCP server, connected via a Layer 2 switch to three client workstations.
 
-![Figure 1: Network Topology Diagram](./images/ping_successful.png)
+![Figure 1: Network Topology Diagram](../images/ping_successful.png)
 
 ---
 
@@ -30,7 +30,7 @@ DHCP_R1(config)# end
 DHCP_R1# write memory
 ```
 
-![Figure 2: Complete Router DHCP CLI Sequence](./images/router_dhcp_simple.png)
+![Figure 2: Complete Router DHCP CLI Sequence](../images/router_dhcp_simple.png)
 
 ---
 
@@ -49,7 +49,7 @@ Verification is conducted by confirming the IP lease on the client and testing L
 ### 5.1 DHCP Address Assignment
 The client (PC0) successfully obtained an IP address of `192.168.0.2` from the `IP_POOL1` range.
 
-![Figure 3: Successful DHCP Request on Client](./images/dhcp_request_succesfull.png)
+![Figure 3: Successful DHCP Request on Client](../images/dhcp_request_succesfull.png)
 
 ### 5.2 ICMP Connectivity Test
 A ping is executed from the client command prompt to the gateway interface to verify end-to-end connectivity.
