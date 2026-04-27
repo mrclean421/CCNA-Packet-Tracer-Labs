@@ -45,5 +45,5 @@ The trace shows:
 
 
 ## Repository Contents
-* `/images/DNS.pkt`: The complete Cisco Packet Tracer simulation file.
+* `DNS.pkt`: The complete Cisco Packet Tracer simulation file.
 * Configuration screenshots and simulation recording.
