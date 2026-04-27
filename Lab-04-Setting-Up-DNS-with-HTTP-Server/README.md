@@ -39,7 +39,7 @@ The trace shows:
 2. The DNS response returning the `2.0.0.2` address.
 3. The HTTP GET request routed to the web server, successfully rendering the University portal.
 
-<video src="/images/dns.mp4" controls="controls" style="max-width: 100%;">
+<video src="../dns_output.mp4" controls="controls" style="max-width: 100%;">
   Your browser does not support the video tag.
 </video>
 
