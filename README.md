@@ -22,7 +22,9 @@ These labs are designed to reinforce concepts required for the **Cisco Certified
 * **[Lab 02: SSH on Layer 2 Switch](./Lab-02-Setting-Up-SSH-on-L2-Switch/)**
   * *Concepts:* SSH secure acess,
 * **[Lab 03: DHCP on Router (2911)](./Lab-03-Setting-Up-DHCP-on-Router-2911/)**
-  * *Concepts:* 
+  * *Concepts:*
+* **[Lab 04: DNS with HTTP Server](./Lab-04-Setting-Up-DNS-with-HTTP-Server/)**
+  * *Concepts:* DNS, HTTP
 
 ---
 
